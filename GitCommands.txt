@@ -1,0 +1,10 @@
+--GIT COMMANDS
+git clone
+git pull
+git reset --hard
+git reset --hard origin/master
+git status
+git add -a
+git commit -m "Enter comment here"
+git push
+git fetch origin

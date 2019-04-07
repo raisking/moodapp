@@ -1,0 +1,24 @@
+--NPM AND NG COMMANDS
+ng generate component selector
+npm init
+npm install express --save
+
+--SERVERSIDE CONNECTION MODULE 9
+npm install --save express
+node .\webserver.js
+npm install nodemon -g
+npm install mongoose --save
+nodemon .\webserver.js
+ng new module9
+ng serve
+
+--INSTALL ANGULAR ANIMATIONS
+npm install --save @angular/material @angular/cdk
+npm install --save @angular/animations
+npm install -g @angular/cli@latest
+
+--CREATE NEW FOLDER/FORM
+ng g c newStudentForm
+ng generate component success-message
+ng generate component selector
+npm install --save body-parser
