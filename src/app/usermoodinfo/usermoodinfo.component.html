@@ -1,35 +1,24 @@
 <br><br>
 <div style="text-align:center">
 <div>
-  <p>
-    What is your name??
-  </p>
+<p>What is your full name?</p>
 
-  <form (ngSubmit)="onSubmit()">
+<form (ngSubmit)="onSubmit()">
   <input type="text" name="fullname"><br>  
   <br><br><br><br><br><br><br><br><br><br><br><br>
-  <p>Type in the mood you are currently feeling</p>
-  <br>
-  
 
+  <p>Type in the mood you are currently feeling</p><br>
+  
 <div ng-app="myApp" ng-controller="myCtrl">
     <select ng-model="selectedName" ng-options="x for x in names">
     </select>
 </div>
 
 
+<p><button type="submit" button>Submit the form</button></p>
 
-
-    <p>
-      <button type="submit" button>Submit the form</button>
-    </p>
-
-  </form>
-  </div>
-
-
-
-
+</form>
+</div>
 </div>
 
 
