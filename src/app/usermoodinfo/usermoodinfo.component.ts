@@ -5,6 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './usermoodinfo.component.html',
   styleUrls: ['./usermoodinfo.component.css']
 })
+
+
 export class UsermoodinfoComponent implements OnInit {
 
   constructor() { }
