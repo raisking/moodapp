@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 
 
+//  var app = angular.module('myApp', []);
+//  app.controller('myCtrl', function($scope) {
+//    $scope.names = ["Emil", "Tobias", "Linus"];
+//  });
+
+
 export class UsermoodinfoComponent implements OnInit {
 
   constructor() { }
