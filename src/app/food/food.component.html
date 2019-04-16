@@ -1,5 +1,55 @@
-<div style="text-align:center">
-<p>
-  food works!
-</p>
+<div class="Title">
+<h1>
+  FOOD COMPONENT WORKS
+</h1>
+<p>This data is in the "food.componenent.html" file. It is not pulling from MongoDB, yet.</p>
+</div>
+
+<div class="Food">
+  <form (ngSubmit)="onSubmit()">
+  <h2>HAPPY</h2>
+  <table id="treq">
+    <tbody>
+        <tr><td class="List">Strawberries</td></tr>
+        <tr><td class="List">Mac N Cheese</td></tr>
+        <tr><td class="List">Apple Crumble w/ Ice Cream</td></tr>
+  </tbody>
+  </table>
+  <!--<mat-form-field>-->
+  <select>
+    <option>Strawberries</option>
+    <option>Mac N Cheese</option>
+    <option>Apple Crumble w/ Ice Cream</option>
+  </select>
+  <!--</mat-form-field>-->
+  <h2>SAD</h2>
+  <table id="treq">
+    <tbody>
+        <tr><td class="List">Cherries</td></tr>
+        <tr><td class="List">Mashed Potatoes</td></tr>
+        <tr><td class="List">Chocolate Strawberries</td></tr>
+  </tbody>
+  </table>
+  <select>
+    <option>Cherries</option>
+    <option>Mashed Potatoes</option>
+    <option>Chocolate Strawberries</option>
+  </select>
+<h2>MAD</h2>
+<table id="treq">
+    <tbody>
+        <tr><td class="List">Hot Wings</td></tr>
+        <tr><td class="List">Apple</td></tr>
+        <tr><td class="List">Crackers</td></tr>
+  </tbody>
+  </table>
+  <select>
+    <option>Hot Wings</option>
+    <option>Apple</option>
+    <option>Crackers</option>
+  </select>
+  <p>
+      <button type="submit" mat-raised-button color="primary">Submit</button>
+  </p>
+</form>
 </div>
