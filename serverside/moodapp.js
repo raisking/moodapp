@@ -47,7 +47,7 @@ moodapp.post('/Food', (req, res, next) => {
       food.save()
     
         //in case of success
-        .then(() => { console.log('New Post Added Successfully');})
+        .then(() => { console.log('New Food Added Successfully');})
         //if error
         .catch(err => {console.log('Error:' + err);});
 });
@@ -55,7 +55,7 @@ moodapp.post('/Food', (req, res, next) => {
 moodapp.delete("/Food/:id", (req, res, next) => {
     Food.deleteOne({ _id: req.params.id }).then(result => {
       console.log(result);
-      res.status(200).json("Your Post is Deleted!");
+      res.status(200).json("Your Food is Deleted!");
     });
   });
 
